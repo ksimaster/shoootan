@@ -4923,10 +4923,20 @@ PrefabInstance:
       propertyPath: mouseLook.lockCursor
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7347634169562569373, guid: ec4063d8e532e614d9f7b3857e1571b5,
+        type: 3}
+      propertyPath: movementSettings.RunMultiplier
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7347634169562569375, guid: ec4063d8e532e614d9f7b3857e1571b5,
         type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7347634169569283097, guid: ec4063d8e532e614d9f7b3857e1571b5,
+        type: 3}
+      propertyPath: m_Mass
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7347634169569283097, guid: ec4063d8e532e614d9f7b3857e1571b5,
         type: 3}
