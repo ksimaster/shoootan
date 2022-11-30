@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -9002334037954745948}
   - component: {fileID: 390924499955794482}
   - component: {fileID: 6582514562254593716}
+  - component: {fileID: 6803588492215225567}
   m_Layer: 0
   m_Name: npc medium
   m_TagString: ENEMY
@@ -221,6 +222,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &6803588492215225567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2943001745707723302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d53f03b51c12084198ab751e4d07f38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8258717025497788471
 GameObject:
   m_ObjectHideFlags: 0
