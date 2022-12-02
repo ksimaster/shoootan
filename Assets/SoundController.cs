@@ -25,19 +25,21 @@ public class SoundController: MonoBehaviour
     }
     private void Update()
     {
+        
         if (Input.GetKeyDown(KeyCode.M))
         {
             if (textSoundON.activeSelf)
             {
-                PlayerPrefs.SetInt("SwitchSound", 0);
+                //PlayerPrefs.SetInt("SwitchSound", 0);
                 SoundSwitch(PlayerPrefs.GetInt("SwitchSound") == 1);
             }
             else
             {
-                PlayerPrefs.SetInt("SwitchSound", 1);
+               // PlayerPrefs.SetInt("SwitchSound", 1);
                 SoundSwitch(PlayerPrefs.GetInt("SwitchSound") == 1);
             }
         }
+        
     }
 
     public void SoundSwitch(bool swichVar)
@@ -47,6 +49,14 @@ public class SoundController: MonoBehaviour
            s.volume = swichVar ? 1f : 0f;
         }
         textSoundON.SetActive(swichVar);
+        if (textSoundON.activeSelf)
+        {
+            PlayerPrefs.SetInt("SwitchSound", 0);
+        }
+        else
+        {
+            PlayerPrefs.SetInt("SwitchSound", 1);
+        }
         textSoundOFF.SetActive(!swichVar);
     }
 

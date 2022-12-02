@@ -131,7 +131,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh44160
+  m_Name: pb_Mesh139394
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -872,7 +872,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 83866897}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -42.87, y: 7.83, z: 103.829994}
+  m_LocalPosition: {x: -41, y: 7.83, z: 116}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1043077215}
@@ -891,7 +891,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh45478
+  m_Name: pb_Mesh140692
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1873,7 +1873,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh44726
+  m_Name: pb_Mesh139966
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4580,7 +4580,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh44480
+  m_Name: pb_Mesh139730
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4795,7 +4795,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Highscore
+  m_text: "\u041B\u0443\u0447\u0448\u0438\u0439 \u0440\u0435\u0437\u0443\u043B\u044C\u0442\u0430\u0442"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 58ec930b4cd37b3418109eff92ce0237, type: 2}
   m_sharedMaterial: {fileID: -6826869193791951078, guid: 58ec930b4cd37b3418109eff92ce0237,
@@ -4830,7 +4830,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -4859,7 +4859,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0.5704631, y: 0, z: 0, w: 0}
+  m_margin: {x: -17.17409, y: 0, z: 0, w: 12.715476}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -5984,7 +5984,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh43890
+  m_Name: pb_Mesh139114
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -21718,7 +21718,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh44888
+  m_Name: pb_Mesh140130
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -24854,7 +24854,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1413836307}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -27252,7 +27252,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh44592
+  m_Name: pb_Mesh139842
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -33684,7 +33684,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh45088
+  m_Name: pb_Mesh140320
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -33879,8 +33879,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -399, y: -341}
-  m_SizeDelta: {x: 159.8466, y: 70.3281}
+  m_AnchoredPosition: {x: -399.9458, y: -341}
+  m_SizeDelta: {x: 246.7523, y: 70.3281}
   m_Pivot: {x: 0.5, y: 0.50000006}
 --- !u!114 &1140619884
 MonoBehaviour:
@@ -33950,6 +33950,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2115913007}
+        m_TargetAssemblyTypeName: SoundController, Assembly-CSharp
+        m_MethodName: SoundSwitch
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1140619885
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34015,7 +34027,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0417\u0432\u0443\u043A \u0412\u041A\u041B."
+  m_Text: "\u0412\u041A\u041B\u042E\u0427\u0418\u0422\u042C \u0417\u0412\u0423\u041A"
 --- !u!222 &1140619888
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -34343,7 +34355,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh44288
+  m_Name: pb_Mesh139530
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -35530,7 +35542,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh45134
+  m_Name: pb_Mesh140374
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -35787,7 +35799,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh45006
+  m_Name: pb_Mesh140238
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -45912,10 +45924,10 @@ RectTransform:
   m_Children:
   - {fileID: 1445013071}
   - {fileID: 726387343}
-  - {fileID: 822956888}
-  - {fileID: 42753410}
   - {fileID: 2090571276}
   - {fileID: 950186836}
+  - {fileID: 822956888}
+  - {fileID: 42753410}
   - {fileID: 1875858013}
   - {fileID: 8390819083599989623}
   - {fileID: 629246098}
@@ -47968,7 +47980,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh44768
+  m_Name: pb_Mesh140008
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -48883,6 +48895,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2115913007}
+        m_TargetAssemblyTypeName: SoundController, Assembly-CSharp
+        m_MethodName: SoundSwitch
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1604342994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48948,7 +48972,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0417\u0432\u0443\u043A \u0412\u042B\u041A\u041B."
+  m_Text: "\u0412\u042B\u041A\u041B\u042E\u0427\u0418\u0422\u042C \u0417\u0412\u0423\u041A"
 --- !u!222 &1604342997
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -48973,8 +48997,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -399, y: -341}
-  m_SizeDelta: {x: 159.8466, y: 70.3281}
+  m_AnchoredPosition: {x: -399.9458, y: -341}
+  m_SizeDelta: {x: 246.7523, y: 70.3281}
   m_Pivot: {x: 0.5, y: 0.50000006}
 --- !u!1001 &1613517516
 PrefabInstance:
@@ -56434,7 +56458,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh43844
+  m_Name: pb_Mesh139068
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -60293,7 +60317,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh44984
+  m_Name: pb_Mesh140216
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -61037,7 +61061,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh44458
+  m_Name: pb_Mesh139708
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -62129,7 +62153,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1413836307}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -62529,7 +62553,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh44392
+  m_Name: pb_Mesh139642
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -63021,7 +63045,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textSoundON: {fileID: 1604342992}
   textSoundOFF: {fileID: 1140619882}
-  sounds: []
+  sounds:
+  - {fileID: 865608958}
+  - {fileID: 167972431}
+  - {fileID: 943088755}
 --- !u!114 &2115913009
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63220,7 +63247,7 @@ PrefabInstance:
     - target: {fileID: 4106110422753916516, guid: 91839949fbdc69142baec4d9211d119c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4106110422753916516, guid: 91839949fbdc69142baec4d9211d119c,
         type: 3}
@@ -63595,7 +63622,7 @@ PrefabInstance:
     - target: {fileID: 8639439487308912945, guid: 96029ca264ae68b4f8bd0d0894ef8929,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8639439487308912945, guid: 96029ca264ae68b4f8bd0d0894ef8929,
         type: 3}
