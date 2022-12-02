@@ -5212,6 +5212,7 @@ GameObject:
   - component: {fileID: 3296819033817689722}
   - component: {fileID: 3939009721932808446}
   - component: {fileID: 7884375556138541527}
+  - component: {fileID: 5415210489801243606}
   m_Layer: 0
   m_Name: cutnpc medium
   m_TagString: Untagged
@@ -5262,7 +5263,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 1ecfc75ffcd49a74babc70d85d97476f, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 6268a24d0b41d2c4c914c2579f0dd5b1, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -5272,8 +5273,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0.1
+  MaxDistance: 1000
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -5348,6 +5349,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &5415210489801243606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3636121537397566257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 533ec721abc549841b7b4f81abea8ddf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4808421502143524876
 GameObject:
   m_ObjectHideFlags: 0

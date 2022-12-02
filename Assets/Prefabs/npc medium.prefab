@@ -16,7 +16,6 @@ GameObject:
   - component: {fileID: 390924499955794482}
   - component: {fileID: 6582514562254593716}
   - component: {fileID: 6803588492215225567}
-  - component: {fileID: 4378915706556961325}
   m_Layer: 0
   m_Name: npc medium
   m_TagString: ENEMY
@@ -126,7 +125,7 @@ MonoBehaviour:
   playerpos: {fileID: 7347634169572717403, guid: ec4063d8e532e614d9f7b3857e1571b5,
     type: 3}
   npcpos: {fileID: 0}
-  npc_attack_damage: 0.5
+  npc_attack_damage: 10
 --- !u!82 &6582514562254593716
 AudioSource:
   m_ObjectHideFlags: 0
@@ -134,7 +133,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2943001745707723302}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 141feb3c5ea22d54fa83db3fd781520c, type: 3}
@@ -233,18 +232,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2d53f03b51c12084198ab751e4d07f38, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &4378915706556961325
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2943001745707723302}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 533ec721abc549841b7b4f81abea8ddf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &8258717025497788471
