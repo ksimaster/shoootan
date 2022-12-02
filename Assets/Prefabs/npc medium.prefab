@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 390924499955794482}
   - component: {fileID: 6582514562254593716}
   - component: {fileID: 6803588492215225567}
+  - component: {fileID: 4378915706556961325}
   m_Layer: 0
   m_Name: npc medium
   m_TagString: ENEMY
@@ -232,6 +233,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2d53f03b51c12084198ab751e4d07f38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4378915706556961325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2943001745707723302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 533ec721abc549841b7b4f81abea8ddf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &8258717025497788471
@@ -501,6 +514,11 @@ PrefabInstance:
     - target: {fileID: 3035285688587253580, guid: aee4e5765b3878d49b35b50485476c23,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3086104428888706650, guid: aee4e5765b3878d49b35b50485476c23,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3277588292469458635, guid: aee4e5765b3878d49b35b50485476c23,
