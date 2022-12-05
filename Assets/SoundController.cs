@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SoundController: MonoBehaviour
 {
-    public GameObject textSoundON;
-    public GameObject textSoundOFF;
-   
+    public GameObject [] SoundOns;
+    public GameObject [] SoundOffs;
+
 
     public AudioSource [] sounds;
 
@@ -41,20 +42,25 @@ public class SoundController: MonoBehaviour
     private void Update()
     {
         
-        if (Input.GetKeyDown(KeyCode.M))
+        if (Input.GetKeyDown(KeyCode.M ))
         {
-            if (PlayerPrefs.GetInt("SwitchSound") == 1)
-            {
-                PlayerPrefs.SetInt("SwitchSound", 0);
-                SoundSwitch(PlayerPrefs.GetInt("SwitchSound") == 1);
-            }
-            else
-            {
-                PlayerPrefs.SetInt("SwitchSound", 1);
-                SoundSwitch(PlayerPrefs.GetInt("SwitchSound") == 1);
-            }
+            ButtonClick();
         }
         
+    }
+
+    public void ButtonClick()
+    {
+        if (PlayerPrefs.GetInt("SwitchSound") == 1)
+        {
+            PlayerPrefs.SetInt("SwitchSound", 0);
+            SoundSwitch(PlayerPrefs.GetInt("SwitchSound") == 1);
+        }
+        else
+        {
+            PlayerPrefs.SetInt("SwitchSound", 1);
+            SoundSwitch(PlayerPrefs.GetInt("SwitchSound") == 1);
+        }
     }
 
     public void SoundSwitch(bool swichVar)
@@ -63,7 +69,15 @@ public class SoundController: MonoBehaviour
         {
            s.volume = swichVar ? 1f : 0f;
         }
-        textSoundON.SetActive(swichVar);
+        foreach (GameObject on in SoundOns)
+        {
+            on.SetActive(swichVar);
+        }
+        foreach (GameObject off in SoundOffs)
+        {
+            off.SetActive(!swichVar);
+        }
+        
      /*   if (swichVar)
         {
             PlayerPrefs.SetInt("SwitchSound", 0);
@@ -72,7 +86,7 @@ public class SoundController: MonoBehaviour
         {
             PlayerPrefs.SetInt("SwitchSound", 1);
         } */
-        textSoundOFF.SetActive(!swichVar);
+        
     }
 
 
