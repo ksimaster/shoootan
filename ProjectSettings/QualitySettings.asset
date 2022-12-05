@@ -4,7 +4,7 @@
 QualitySettings:
   m_ObjectHideFlags: 0
   serializedVersion: 5
-  m_CurrentQuality: 3
+  m_CurrentQuality: 1
   m_QualitySettings:
   - serializedVersion: 2
     name: Very Low
@@ -116,7 +116,8 @@ QualitySettings:
     resolutionScalingFixedDPIFactor: 1
     customRenderPipeline: {fileID: 11400000, guid: 58e2891fbab9ca745949604c63f21ccb,
       type: 2}
-    excludedTargetPlatforms: []
+    excludedTargetPlatforms:
+    - WebGL
   - serializedVersion: 2
     name: Ultra
     pixelLightCount: 4
@@ -153,7 +154,8 @@ QualitySettings:
     resolutionScalingFixedDPIFactor: 1
     customRenderPipeline: {fileID: 11400000, guid: 58e2891fbab9ca745949604c63f21ccb,
       type: 2}
-    excludedTargetPlatforms: []
+    excludedTargetPlatforms:
+    - WebGL
   m_PerPlatformDefaultQuality:
     Android: 1
     Lumin: 3
@@ -163,7 +165,7 @@ QualitySettings:
     PSP2: 1
     Stadia: 3
     Standalone: 3
-    WebGL: 2
+    WebGL: 1
     Windows Store Apps: 3
     XboxOne: 3
     iPhone: 1
