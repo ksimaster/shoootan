@@ -10,6 +10,7 @@ public class StartPanel : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+        PlayerPrefs.SetInt("haveInstructionsDisplayed", 1);
         if (PlayerPrefs.GetInt("haveInstructionsDisplayed") != 1)
         {
             StartCoroutine(ShowStartPanel());
