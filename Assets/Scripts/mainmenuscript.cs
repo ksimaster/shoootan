@@ -2,14 +2,17 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+
 public class mainmenuscript : MonoBehaviour
 {
-    public Text Highscoreref;
+    public Text highScoreRef;
+
     void Start()
     {
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
-        Highscoreref.text = PlayerPrefs.GetFloat("HighScore").ToString();
+
+        highScoreRef.text = PlayerPrefs.GetInt("HighScore").ToString();
     }
 
     public void PlayButtonClicked()
@@ -25,7 +28,7 @@ public class mainmenuscript : MonoBehaviour
     public void ResetHighScoreButtonClicked()
     {
         Debug.Log("Highscore is Reset");
-        Highscoreref.text = "0";
+        highScoreRef.text = "0";
         PlayerPrefs.DeleteAll();
     }
 

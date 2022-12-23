@@ -7,10 +7,10 @@ public class updatescore : MonoBehaviour
     public Text highscore;
     public Text highscore2;
 
-    public float score_count = 0f;
+    public int score_count = 0;
     private void Start()
     {
-        highscore.text = PlayerPrefs.GetFloat("HighScore", 0f).ToString();
+        highscore.text = PlayerPrefs.GetInt("HighScore").ToString();
     }
     public void ChangeScore()
     {
@@ -19,16 +19,16 @@ public class updatescore : MonoBehaviour
     }
     public void UpdateHighScore()
     {
-        if (score_count > PlayerPrefs.GetFloat("HighScore", 0f))
+        if (score_count > PlayerPrefs.GetInt("HighScore"))
         { 
             highscore.text = score_count.ToString();
             highscore2.text = score_count.ToString();
-            PlayerPrefs.SetFloat("HighScore", score_count);
+            PlayerPrefs.SetInt("HighScore", score_count);
         }
         else
         {
-            highscore.text = PlayerPrefs.GetFloat("HighScore").ToString();
-            highscore2.text = PlayerPrefs.GetFloat("HighScore").ToString();
+            highscore.text = PlayerPrefs.GetInt("HighScore").ToString();
+            highscore2.text = PlayerPrefs.GetInt("HighScore").ToString();
         }
     }
 }

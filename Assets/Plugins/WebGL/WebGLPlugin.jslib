@@ -9,13 +9,15 @@ mergeInto(LibraryManager.library, {
       // Show a message as an alert
       window.showShare();
    },
-   // Function GetLang(add ksimaster)
-   GetLang: function () {
-      var lang = sdk.environment.i18n.lang;
-      var bufferSize = lengthBytesUTF8(lang) + 1;
-      var buffer = _malloc(bufferSize);
-      stringToUTF8(lang, buffer, bufferSize);
-      return buffer;
+      // Function SetLeder(add ksimaster)
+   SetValue: function (value) {
+      //best = value;
+      //console.log(value); 
+      return value;
+   },
+      // Function SetLeder(add ksimaster)
+   SetLeder: function () {
+      setLederboard();
    },
    // Function InterstitialFunction (add ksimaster)
    InterstitialFunction: function () {
@@ -27,9 +29,10 @@ mergeInto(LibraryManager.library, {
       // Show a message as an alert
       window.showAdReward();
    },
-      // Function SetEnglishFunction (add ksimaster)
-   SetEnglishFunction: function () {
-      SetEnglish();
+   // Function autorization (add ksimaster)
+   Hello: function () {
+      window.alert("Hello!");
+      console.log("Hello!");
    },
    // Function with the text param
    PassTextParam: function (text) {

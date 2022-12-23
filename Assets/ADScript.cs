@@ -35,7 +35,7 @@ public class ADScript : MonoBehaviour
     }
 
     //Change language
-
+/*
     public void SetEnglish(string message)
     {
 #if UNITY_WEBGL && !UNITY_EDITOR
@@ -43,7 +43,7 @@ public class ADScript : MonoBehaviour
 #endif
 
     }
-
+*/
     private void Start()
     {
         if(nameScene == "Main Menu") ShowAdInterstitial();

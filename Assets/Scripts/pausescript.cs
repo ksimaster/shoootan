@@ -15,7 +15,7 @@ public class pausescript : MonoBehaviour
 
     private void Start()
     {
-        HighscoreTxt.text = PlayerPrefs.GetFloat("HighScore").ToString();
+        HighscoreTxt.text = PlayerPrefs.GetInt("HighScore").ToString();
     }
     private void Update()
     {
