@@ -15,7 +15,7 @@ public class playerlife : MonoBehaviour
     private static extern void SetLeder();
     //Importing SetValue
     [DllImport("__Internal")]
-    private static extern void SetValue(int value);
+    private static extern int SetValue(int value);
     void Start()
     {
         healthbar_ref.SetMaxHealth(playerhealth);
