@@ -12,6 +12,7 @@ public class Lederboard : MonoBehaviour
 
     public void SetHighScoreOnLederboard()
     {
+        
         int best = PlayerPrefs.GetInt("HighScore");
 #if UNITY_WEBGL && !UNITY_EDITOR
     	WebGLPluginJS.SetLeder(best);

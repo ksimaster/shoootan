@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Runtime.InteropServices;
 
 public class playerlife : MonoBehaviour
 {
@@ -10,12 +9,9 @@ public class playerlife : MonoBehaviour
     public texthealth texthealth_ref;       //Taking a reference from the text health script attached to the 'Text' 
     public Animator bloodUIanimator;
 
-    //Importing SetLeder
-    [DllImport("__Internal")]
-    private static extern void SetLeder();
-    //Importing SetValue
-    [DllImport("__Internal")]
-    private static extern int SetValue(int value);
+
+
+ 
     void Start()
     {
         healthbar_ref.SetMaxHealth(playerhealth);
@@ -57,12 +53,12 @@ public class playerlife : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
         gameoverUI.SetActive(true);
-        int best = 0; //PlayerPrefs.GetInt("HighScore").ToString();
-//#if UNITY_WEBGL && !UNITY_EDITOR
-       // WebGLPluginJS.SetLeder(best);
-        SetValue(best);
-        //SetLeder();
+        int best = PlayerPrefs.GetInt("HighScore");
+#if UNITY_WEBGL && !UNITY_EDITOR
+        WebGLPluginJS.SetLeder(best);
+       
         
-//#endif
+        
+#endif
     }
 }

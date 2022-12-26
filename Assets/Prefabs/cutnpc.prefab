@@ -5073,7 +5073,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
+  m_DynamicOccludee: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -5125,10 +5125,90 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3296819033817689722}
     m_Modifications:
+    - target: {fileID: 362978661599091431, guid: 99855a9b5574b75419b69fafcd563567,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 362978661599091431, guid: 99855a9b5574b75419b69fafcd563567,
+        type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6063398098914910443, guid: 99855a9b5574b75419b69fafcd563567,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6063398098914910443, guid: 99855a9b5574b75419b69fafcd563567,
+        type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7305716455846153946, guid: 99855a9b5574b75419b69fafcd563567,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7305716455846153946, guid: 99855a9b5574b75419b69fafcd563567,
+        type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7874948240373519298, guid: 99855a9b5574b75419b69fafcd563567,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7874948240373519298, guid: 99855a9b5574b75419b69fafcd563567,
+        type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8200287175149826770, guid: 99855a9b5574b75419b69fafcd563567,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8200287175149826770, guid: 99855a9b5574b75419b69fafcd563567,
+        type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8258881303872189870, guid: 99855a9b5574b75419b69fafcd563567,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8258881303872189870, guid: 99855a9b5574b75419b69fafcd563567,
+        type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8451885880953233974, guid: 99855a9b5574b75419b69fafcd563567,
         type: 3}
       propertyPath: m_Name
       value: npc head bisected
+      objectReference: {fileID: 0}
+    - target: {fileID: 8759067138758249693, guid: 99855a9b5574b75419b69fafcd563567,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8759067138758249693, guid: 99855a9b5574b75419b69fafcd563567,
+        type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8908221702150799411, guid: 99855a9b5574b75419b69fafcd563567,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8908221702150799411, guid: 99855a9b5574b75419b69fafcd563567,
+        type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9079522661535266956, guid: 99855a9b5574b75419b69fafcd563567,
         type: 3}

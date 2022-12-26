@@ -10,14 +10,8 @@ mergeInto(LibraryManager.library, {
       window.showShare();
    },
       // Function SetLeder(add ksimaster)
-   SetValue: function (value) {
-      //best = value;
-      //console.log(value); 
-      return value;
-   },
-      // Function SetLeder(add ksimaster)
-   SetLeder: function () {
-      setLederboard();
+   SetLeder: function (value) {
+      setLederboard(value);
    },
    // Function InterstitialFunction (add ksimaster)
    InterstitialFunction: function () {
