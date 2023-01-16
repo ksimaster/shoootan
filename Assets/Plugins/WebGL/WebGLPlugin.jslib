@@ -13,6 +13,25 @@ mergeInto(LibraryManager.library, {
    SetLeder: function (value) {
       setLederboard(value);
    },
+   // Function GetAuth(add ksimaster)
+   GetAuth: function () {
+      //var player;
+      var isAuthorzation = "no";
+        if (!(player.getMode() === 'lite')) 
+        {
+          console.log('Player autorization: YES!!!' );
+          isAuthorzation = "yes";
+         }
+     
+      var bufferSize = lengthBytesUTF8(isAuthorzation) + 1;
+      var buffer = _malloc(bufferSize);
+      stringToUTF8(isAuthorzation, buffer, bufferSize);
+      return buffer;
+   },
+   // Function SetAuth(add ksimaster)
+   SetAuth: function () {
+      setAuth();
+   },
    // Function InterstitialFunction (add ksimaster)
    InterstitialFunction: function () {
       // Show a message as an alert
